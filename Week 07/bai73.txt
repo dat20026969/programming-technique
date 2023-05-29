@@ -1,0 +1,50 @@
+Code block #1:
+	array<int, 5> a;
+	a[5] = 99;  
+Sua lai thanh: a[4] = 99;
+
+Code block #2:
+	vector<string> strv = { "one", "two", "three")};
+	vector<string>::iterator it;
+	strv.cbegin();  
+Sua lai thanh: it = strv.begin(); va bo dau ., them dau ',' nhu tren
+
+Code block #3:
+	vector<int> numbers(10);  
+Sua lai thanh: vector<int>numbers[10];
+	for (int index = O -> 0; index < numbers.length(), sua lai thanh: numbers.size(); index++)
+		numbers[index] = index;
+
+Code block #4:
+	vector<int> numbers = { 1, 2, 3 };
+	numbers.insert(99);  
+Sua lai thanh: numbers.push_back(99);
+
+Code block #5:
+	map<string, string> contacts;
+	contacts.insert("Beth Young", "555-1212);   
+sua lai thanh: contacts.emplace("Beth Young", "555-1212);
+
+Code block #6:
+	multimap<string, string> phonebook;
+Sua lai thanh: map<string, string> phonebook;
+	phonebook["Hegan"J] = "555-1212";
+
+Code block #7:
+	vector<int> v = { 6, 5, 4, 2, 3, 1 };
+	sort(v);
+	Sua lai thanh: sort(v.begin(), v.end());
+	if (binary_search(v, 1), sua lai thanh: binary_search(v.begin(), v.end(), 1))
+		cout << "The value 1 is found in the vector. \n";
+	else
+		cout << "The value 1 is NOT found in the vector.\n";
+
+Code block #8:
+	auto sum = ()[int a, int b] { return a + b; }
+Sua lai thanh: auto sum = [](int a, int b) { return a + b; };
+
+
+20127674
+Le Duc Dat
+20CLC08.
+Qua mon nay la vui roi, rang hoc ve AI, main AI nghien cuu la chinh.
